@@ -1,0 +1,13 @@
+# Les c´structures condtionnelles pour effectuer des tests 
+age = input("Entrez votre age: ")
+age = int(age)
+if age == 18 :
+    print("Vous etes en zone grise")
+elif age < 18 :
+    print (" Tu es mineur")
+elif age > 18 and age < 60 :
+    print (" Vous etes majeur")
+elif age > 60 :
+    print(" Vous etes un tonton")
+
+  

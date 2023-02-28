@@ -1,0 +1,22 @@
+# premier programme 
+#une variable doit commencer par une lettre et ne doit contenir ni caracteres speciaux ou d'espace, il est recommencde d'utilises les unterscores 
+Age_Papa = 50 
+Age_Maman = 45
+Age_Fils = float
+
+
+# les types standars    entier numerique (int)
+                        #nombres flottant (float)
+                        #chaine de caracteres (str)
+                        #booleen (bool)
+                        
+# "identification d'une chaine de caractere"
+print(type(Age_Fils)) #type retourne le type de donnees 
+print(type(Age_Maman))
+print(Age_Maman)
+test = "je suis un gars de {} et je fais un master pour la {}."
+print (test.format(Age_Papa, Age_Maman)) #format est une methode qui permet de remplacer les espace vide dans un test 
+Nombre_Jours = input ("Choisis une femme: ") # input permet de recuperer des donnees en entree mais ne doit etre utiliser que sous une variable
+ #str.format : permet de formater une chaine 
+Age_Fils = Age_Maman -20
+# conversion de donnees demande en input pour eviter tout desagrement de type de donnees. nombre = type_besoin (nombre)

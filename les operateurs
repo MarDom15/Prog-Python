@@ -5,4 +5,4 @@ savoir = float (calcul)
 rest = 5%2
 print ("Resultat  ", calcul)
 print ("Resultat  ", savoir)
-print ("Reste  ", rest)
+print ("Reste  ", rest)   
