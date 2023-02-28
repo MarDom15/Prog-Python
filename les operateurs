@@ -1,0 +1,8 @@
+# les differents operateurs dans python addition (+), soustraction (-), multiplication (*), division (/), modulo (%, reste d'une division eucliedienne)
+calcul = 5/2
+calcul = int (calcul)
+savoir = float (calcul)
+rest = 5%2
+print ("Resultat  ", calcul)
+print ("Resultat  ", savoir)
+print ("Reste  ", rest)
